@@ -43,27 +43,28 @@ header nav .right {
 	display:inline-flex;
 	align-items: left;
 }
-header nav .right p {
+header nav .right a {
     font-family: 'Roboto', sans-serif;
     font-weight:normal;
     padding-left: 10px;
     line-height: 1.5;
     margin: 0 15px 0 0;
-	color: #ccc;
+	color: #ffffff;
 
 }
-header nav .right p:hover {
+header nav .right a:hover {
 	color: rgb(205, 230, 16);
+    font-weight: bold;
 	cursor: pointer;
     text-decoration:underline;
 
 }
 
-header nav .right p:active {
+header nav .right a:active {
     color:crimson;
 }
 
-header nav .right p a:visited {
+header nav .right a:visited {
     color:rgb(201, 219, 118);
 }
 
