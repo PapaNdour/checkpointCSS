@@ -1,0 +1,262 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-weight:normal;
+}
+
+header {
+   
+	/*background: linear-gradient(#13181d, #20212e, #341b47);*/
+    background-image: url(/images/slider-bg.jpg);
+    justify-content: space-between;
+	align-items: center; 
+}
+
+header nav {
+	padding:0px;
+    width: 100%;
+    height: 800px;
+    text-align: right;	
+	justify-content: space-between;
+	
+}
+
+#nom{
+    
+    font-family: sans-serif;
+    text-align: left;	
+}
+.nom2{
+    color: crimson;
+}
+
+header nav h1 {
+	margin: 10px;
+	/*text-transform: uppercase;*/
+	color:whitesmoke;
+    width: max-content;
+    /*background-color: aqua;*/
+}
+header nav .right {
+    
+	display:inline-flex;
+	align-items: left;
+}
+header nav .right p {
+    font-family: 'Roboto', sans-serif;
+    font-weight:normal;
+    padding-left: 10px;
+    line-height: 1.5;
+    margin: 0 15px 0 0;
+	color: #ccc;
+
+}
+header nav .right p:hover {
+	color: rgb(205, 230, 16);
+	cursor: pointer;
+    text-decoration:underline;
+
+}
+
+header nav .right p:active {
+    color:crimson;
+}
+
+header nav .right p a:visited {
+    color:rgb(201, 219, 118);
+}
+
+.maPhoto{
+    margin-top: 280px;
+    margin-left: 50%;
+    margin-right: 700px;
+    height: 200px;
+    width: 200px;
+    border: 2px solid;
+    border-color: rgb(90, 90, 255);
+    border-radius: 80px;
+    box-shadow: 10px 5px 5px rgb(12, 25, 53);
+}
+
+.description{
+    margin-top: 5px;
+    margin-left: 700px;
+    margin-right: 600px;
+    color: white;
+    font-size:50px;
+    font-weight: bold;
+    width: max-content;
+}
+
+span {
+    background-color: beige;
+    display:contents;
+    
+}
+
+
+.description02 b{
+    padding: 0px;
+    margin-top: 50px;
+    margin-left: 70px;
+    margin-right: 250px;
+    color: rgb(177, 230, 54);
+    font-style: italic;
+    font-variant: small-caps;
+    font-weight: lighter;
+}
+section{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.aligne00 {
+    display: inline-flex;
+    background-image: linear-gradient(45deg, #FFFFFF, rgb(135, 122, 250))
+   
+}
+
+.par01{
+    margin-left: 20px;
+    padding-left: 20px;
+    display: contents;
+}
+.aligne00 p{
+    margin-top: 30px;
+    margin-left: 5px;
+    border: 5px solid crimson;
+    justify-content: space-between;
+    background-image: linear-gradient(45deg, #FFFFFF, rgb(255, 122, 89))
+}
+
+.cv{
+    width: 950px;
+    height: 500px; 
+}
+.cvPdf{
+
+    display: inline;
+    align-items: center;
+
+}
+
+#cv p{
+ 
+    margin-top: 0px;
+
+    height: 50px;
+    
+}
+
+.cv01{
+    margin-top: 0px  ;
+    background-color: burlywood;
+}
+/*************************************************/
+
+form {
+    color: #FFFFFF;
+    border-radius: 10px;
+    border: 2px solid black;
+    width: 250px;
+    height: 350px;
+  
+  }
+
+
+  form input {
+    justify-content: center;
+    margin-top: 5px;
+    padding: 10px 5px 10px 30px;
+    border: 1px solid #c9c9c9;
+    outline-color: #747cdf;
+    border-radius: 5px;
+  }
+  
+  form i {
+
+    top: 25px;
+    padding: 9px 8px;
+    color: #747cdf;
+  }
+
+
+  h2 i {
+
+    top: 25px;
+    padding: 9px 8px;
+    color: #747cdf;
+  }
+
+ form button {
+    margin-left: 40px;
+    margin-top: 0px;
+    background-color: #747cdf;
+    color: white;
+    font-size: 15px;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+
+  }
+
+  form textarea {
+    margin-top: 5px;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border: 2px solid #747cdf;
+    outline: none;
+    border-radius: 5px;
+    resize: none;
+    width: 150px;
+    height: 20%;
+  }
+  .groupeContact div{
+    
+    margin-left: 150px;
+    padding: 15px;
+    display: inline-block;
+    justify-content: space-around;
+   
+  }
+
+ 
+.separation {
+    width: 100%;
+    height: 2px;
+    background-color: #747cdf;
+  }
+
+  footer{
+    margin-left: 0px;
+    width: 100%;
+    height: 250px;
+    background-image: linear-gradient(360deg, #36d7f391, rgb(0, 0, 0));
+  }
+
+  footer article{
+
+    display: inline-block;
+    color:aliceblue;
+    margin-left: 40px;
+    margin-top: 20px;
+    padding-top: 0;
+    width: 30%;
+    height: 190px;
+    background-color: rgba(12, 11, 11, 0.205);
+    text-align: justify;
+
+  }
+
+   h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    text-align: center;
+   }
+
+   footer article p{
+    padding: 10px;
+    font-size: 15px;
+   }
